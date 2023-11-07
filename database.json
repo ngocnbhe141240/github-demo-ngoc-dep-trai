@@ -1,0 +1,423 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "fullname": "Admin",
+      "email": "admin@gmail.com",
+      "password": "11",
+      "role": "admin",
+      "purchase_history": []
+    },
+    {
+      "id": "ngoc",
+      "fullname": "Nguyen Bao Ngoc",
+      "email": "ngoc@gmail.com",
+      "password": "11",
+      "role": "user",
+      "purchase_history": []
+    },
+    {
+      "id": "bao",
+      "fullname": "Nguyen Bao Ngoc",
+      "email": "bao@gmail.com",
+      "password": "11",
+      "role": "user",
+      "purchase_history": [
+        {
+          "productId": 3,
+          "quantity": 1
+        },
+        {
+          "productId": 4,
+          "quantity": 1
+        },
+        {
+          "productId": 6,
+          "quantity": 1
+        },
+        {
+          "productId": 5,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "new",
+      "fullname": "new",
+      "email": "new@gmail.com",
+      "password": "11",
+      "role": "admin",
+      "purchase_history": []
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Kids ABC Camo Shark Patch",
+      "price": "109.95",
+      "type": "Shirt",
+      "gender": "Kids",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "../../images/Product/Kids/1.png",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "X Russell Tee",
+      "price": "22.3",
+      "type": "Shirt",
+      "gender": "Men",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "../../images/Product/Men/1.png",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "title": "X Russell Pullover Hoodie",
+      "price": "55.99",
+      "type": "Shirt",
+      "gender": "Men",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM114905LBLX/0ZXSWM114905LBLX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "title": "BAPE Check By Bathing Ape Tee",
+      "price": 15.99,
+      "type": "Shirt",
+      "gender": "Men",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXTEM110052LWHX/0ZXTEM110052LWHX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 5,
+      "title": "Diamond Boys Pendant",
+      "price": 695,
+      "type": "Jewelery",
+      "gender": "Jewelery",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "https://johnnydangandco.com/cdn/shop/products/pendants_540x.png?v=1620334883",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 6,
+      "title": "14K VS Honeycomb Set Diamond Grillz",
+      "price": 168,
+      "type": "Jewelery",
+      "gender": "Jewelery",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "https://johnnydangandco.com/cdn/shop/products/zyWLF_2460-Edit_359b2c87-1a2c-4fba-a97b-18368697f12b_540x.jpg?v=1620334591",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      }
+    },
+    {
+      "id": 7,
+      "title": "Iced Out Audemars Piguet Royal Oak 36 mm Rose Gold Dial",
+      "price": 9.99,
+      "type": "Jewelery",
+      "gender": "Jewelery",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "https://johnnydangandco.com/cdn/shop/files/4_cd4039c8-d94e-463b-8f75-fc4d9773e647_720x.png?v=1614314097",
+      "rating": {
+        "rate": 3,
+        "count": 400
+      }
+    },
+    {
+      "id": 8,
+      "title": "Lightning Bolt Earring",
+      "price": 10.99,
+      "type": "Jewelery",
+      "gender": "Jewelery",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "https://johnnydangandco.com/cdn/shop/products/ScreenShot2020-10-23at45005PM-sw_540x.png?v=1621367809",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    },
+    {
+      "id": 9,
+      "title": "Kids Color Camo Block Track Pants Jr",
+      "price": 64,
+      "type": "Pants",
+      "gender": "Kids",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXPTK652004LRDX/0ZXPTK652004LRDX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      }
+    },
+    {
+      "id": 10,
+      "title": "Kids Layered Line Camo By Bathing Ape L/S Tee",
+      "price": "109",
+      "type": "Shirt",
+      "gender": "Kids",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXLTK311013LBKX/0ZXLTK311013LBKX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      "rating": {
+        "rate": 2.9,
+        "count": 470
+      }
+    },
+    {
+      "id": 11,
+      "title": "Kids Color Camo Block Jacket Jr",
+      "price": "109",
+      "type": "Shirt",
+      "gender": "Kids",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXLJK640002LRDX/0ZXLJK640002LRDX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      "rating": {
+        "rate": 4.8,
+        "count": 319
+      }
+    },
+    {
+      "id": 12,
+      "title": "1st Camo Bape Team Emblem Print Sweat Pants",
+      "price": 114,
+      "type": "Pants",
+      "gender": "Kids",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXPTK352006IGRX/0ZXPTK352006IGRX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      "rating": {
+        "rate": 4.8,
+        "count": 400
+      }
+    },
+    {
+      "id": 13,
+      "title": "10KY 45.05CTW DIAMOND SOLID LINK MIAMI CUBAN CHAIN",
+      "price": 599,
+      "type": "Jewelery",
+      "gender": "Jewelery",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "https://johnnydangandco.com/cdn/shop/products/NL2279Y_360x.jpg?v=1691637721",
+      "rating": {
+        "rate": 2.9,
+        "count": 250
+      }
+    },
+    {
+      "id": 14,
+      "title": "NEW Deluxe Carre Cut Invisible Grillz 10 Teeth - VVS Diamonds",
+      "price": 999.99,
+      "type": "Jewelery",
+      "gender": "Jewelery",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "https://johnnydangandco.com/cdn/shop/products/image_def90372-3bec-47c2-8d98-2e2dcacf80ca_360x.jpg?v=1656625753",
+      "rating": {
+        "rate": 2.2,
+        "count": 140
+      }
+    },
+    {
+      "id": 15,
+      "title": "Color Camo College Tee",
+      "price": "56.99",
+      "type": "Shirt",
+      "gender": "Women",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXTEW210019LWHS/0ZXTEW210019LWHS-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      "rating": {
+        "rate": 2.6,
+        "count": 235
+      }
+    },
+    {
+      "id": 16,
+      "title": "Baby Milo printed gradient hoodie",
+      "price": "29.95",
+      "type": "Shirt",
+      "gender": "Women",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0MXSWW3031XXLPKL/0MXSWW3031XXLPKL-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      "rating": {
+        "rate": 2.9,
+        "count": 340
+      }
+    },
+    {
+      "id": 17,
+      "title": "BAPE Logo Tee #2",
+      "price": "39.99",
+      "type": "Shirt",
+      "gender": "Women",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXTEW210080LPPX/0ZXTEW210080LPPX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      }
+    },
+    {
+      "id": 18,
+      "title": "Baby Milo fleece hoodie",
+      "price": 9.85,
+      "type": "Shirt",
+      "gender": "Women",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0MXSWW3033XXLBLL/0MXSWW3033XXLBLL-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    },
+    {
+      "id": 19,
+      "title": "Sherpa cargo pants",
+      "price": "7.95",
+      "type": "Pants",
+      "gender": "Women",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0PXPTW252005LGYX/0PXPTW252005LGYX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    {
+      "id": 20,
+      "title": "Denim mini skirt",
+      "price": "12.99",
+      "type": "Pants",
+      "gender": "Women",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0PXSKW254003LBLX/0PXSKW254003LBLX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      }
+    },
+    {
+      "title": "Corduroy Cargo Pants",
+      "price": "11",
+      "type": "Pants",
+      "gender": "Men",
+      "image": "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXPTM152013LBGX/0ZXPTM152013LBGX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_375,w_300/auto-orient,1/quality,Q_80",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": {
+        "rate": 0,
+        "count": 250
+      },
+      "id": 21
+    }
+  ]
+}
